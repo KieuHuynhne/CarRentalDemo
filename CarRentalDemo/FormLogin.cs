@@ -52,14 +52,14 @@ namespace CarRentalDemo
                 {
                     MessageBox.Show("Đăng nhập thành công với quyền admin", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
-                    AddCustomer a = new AddCustomer();
+                    QuanLyXe a = new QuanLyXe();
                     a.Show();
                 }
                 else if (dt.Rows[0][3].ToString() == "user")
                 {
                     MessageBox.Show("Đăng nhập thành công! User", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
-                    AddCustomer a = new AddCustomer();
+                    QuanLyXe a = new QuanLyXe();
                     a.Show();
                 }
                
